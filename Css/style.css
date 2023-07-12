@@ -1,4 +1,43 @@
-h1{
 
-    background-color: aquamarine;
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+.nav-continer{
+    background-color: rgba(0, 0, 0, 0.865);
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.logo-photo{
+
+    width: 120px; 
+}
+
+.menu-bar ul {
+
+    display: flex;
+
+}
+    
+  
+li {
+    
+    margin: 10px;
+    list-style: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+
+li:hover{
+
+    color: blue;
 }
