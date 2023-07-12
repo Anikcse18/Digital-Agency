@@ -5,6 +5,8 @@
     padding: 0;
 }
 
+/* This is nav bar Css */
+
 .nav-continer{
     background-color: rgba(0, 0, 0, 0.865);
     width: auto;
@@ -40,4 +42,54 @@ li {
 li:hover{
 
     color: blue;
+}
+/* This is nav bar Css */
+
+/* This is banner CSS */
+
+.banner{
+
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(/Image/picture/background.png), linear-gradient(45deg,rgba(0, 0, 0, 0.835), black);
+}
+.banner h1{
+
+    font-size: 50px;
+    color: white;
+
+}
+
+.banner p{
+
+    font-size: 18px;
+    color: white ;
+    margin-top: 20px;
+}
+
+
+.banner .btn{
+
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    color: white;
+    border-radius: 2px ;
+
+}
+
+.banner .btn:hover{
+
+    background-color: green;
+
+}
+
+.banner-img{
+
+    width: 300px;
+
 }
